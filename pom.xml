@@ -35,22 +35,22 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git://github.com/mulesoft-labs/mule-docs-builder.git</connection>
-        <developerConnection>scm:git:git@github.com:mulesoft-labs/mule-docs-builder.git</developerConnection>
+        <connection>scm:git:git://github.com/opendevise/mule-docs-builder.git</connection>
+        <developerConnection>scm:git:git@github.com:opendevise/mule-docs-builder.git</developerConnection>
         <url>https://github.com/mulesoft-labs/mule-docs-builder</url>
     </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jdk.version>1.8</jdk.version>
+        <!--
         <dist.serverId>mule-releases</dist.serverId>
         <dist.serverName>Mule Releases Repository</dist.serverName>
         <dist.nexusUrl>https://repository-master.mulesoft.org/nexus/</dist.nexusUrl>
-        <!--
+        -->
         <dist.serverId>central-releases-repository</dist.serverId>
         <dist.serverName>Central Releases Repository</dist.serverName>
         <dist.nexusUrl>https://oss.sonatype.org/</dist.nexusUrl>
-        -->
     </properties>
 
     <modules>
